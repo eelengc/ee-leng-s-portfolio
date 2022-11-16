@@ -61,8 +61,8 @@ function About() {
           <ul>
             <li>» VS Code</li>
             <li>» Git</li>
-            <li>» Node Package Manager</li>
             <li>» iTerm</li>
+            <li>» Node Package Manager</li>
           </ul>
         </div>
       </div>

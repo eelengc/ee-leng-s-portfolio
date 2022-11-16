@@ -121,4 +121,9 @@
         display: flex;
         justify-content: center;
     }
+    .btn-resume,
+    .btn-view{
+        width: 150px;
+        padding: 0.8rem 1.5rem;
+    }
   }
