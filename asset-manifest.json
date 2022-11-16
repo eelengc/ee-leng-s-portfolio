@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1f9156e4.css",
-    "main.js": "/my-portfolio/static/js/main.48730126.js",
+    "main.css": "/my-portfolio/static/css/main.42678c1c.css",
+    "main.js": "/my-portfolio/static/js/main.3d75048f.js",
     "static/js/787.fc19192d.chunk.js": "/my-portfolio/static/js/787.fc19192d.chunk.js",
     "static/media/wl1.png": "/my-portfolio/static/media/wl1.1ec6b4f5dc9b6715e010.png",
     "static/media/ajak1.png": "/my-portfolio/static/media/ajak1.530ca5bc3ddf473c8e44.png",
@@ -12,12 +12,12 @@
     "static/media/tictactoe2.png": "/my-portfolio/static/media/tictactoe2.abcb9d6111af8b605074.png",
     "static/media/tictactoe1.png": "/my-portfolio/static/media/tictactoe1.ee1db387f14bac8fcb8f.png",
     "index.html": "/my-portfolio/index.html",
-    "main.1f9156e4.css.map": "/my-portfolio/static/css/main.1f9156e4.css.map",
-    "main.48730126.js.map": "/my-portfolio/static/js/main.48730126.js.map",
+    "main.42678c1c.css.map": "/my-portfolio/static/css/main.42678c1c.css.map",
+    "main.3d75048f.js.map": "/my-portfolio/static/js/main.3d75048f.js.map",
     "787.fc19192d.chunk.js.map": "/my-portfolio/static/js/787.fc19192d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f9156e4.css",
-    "static/js/main.48730126.js"
+    "static/css/main.42678c1c.css",
+    "static/js/main.3d75048f.js"
   ]
 }
