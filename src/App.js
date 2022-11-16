@@ -11,7 +11,7 @@ function App() {
   return (
     <Container fluid>
       <Routes>
-        <Route path="/" element={<Layout />}></Route>
+        <Route path="/my-portfolio" element={<Layout />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
