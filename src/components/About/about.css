@@ -1,0 +1,108 @@
+#about{
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+#about.container{
+    height: 100%;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 0.8rem;
+    position: absolute;
+    left: 1.3rem;
+    bottom: 3rem;
+    position: fixed;
+    font-size: 1.2rem;
+}
+
+.about-me{
+    text-align: justify;
+}
+
+.back-text{
+    width: max-content;
+    position: absolute;
+    color: rgba(0,0,0,0.1);
+}
+
+.back-text span{
+    display: inline-block;
+    font-size: 75px;
+    font-weight: 500;
+    transform: translateX(-150px);
+    transition: transform 1.5s;
+}
+
+.back-text span.active{
+    transform: translateX(0px);
+}
+
+ul{
+    columns: 3;
+    font-size: 0.9em;
+}
+
+
+.btn-view{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border: 2px solid transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #b3d7ad, #7fa640);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 1px 1000px 0.5px #fff inset;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+}
+
+.btn-resume{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border: 2px solid transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #7fa640, #b3d7ad);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 1px 1000px 0.5px #fff inset;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+}
+
+
+.btn-resume:hover,
+.btn-view:hover{
+    box-shadow: none;
+    color: white;
+}
+
+/** MEDIUM DEVICES **/
+
+@media screen and (max-width: 1024px){
+    .socials{
+        font-size: 1.3rem;
+    }
+}
+
+  /** SMALL DEVICES **/
+  
+  @media screen and (max-width: 896px){
+    .container{
+        width: 85%;
+    }
+    .socials{
+        left: 1rem;
+        font-size: 1rem;
+    }
+  }

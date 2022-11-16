@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+
+#header-portfolio{
+    font-size: 4.8em;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu li{
+    padding: 0px 20px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 1em;
+}
+
+ul{
+    list-style-type: none;
+}
+  
+@media screen and (max-width: 896px){
+    .container{
+        width: 85%;
+        margin: auto;
+    }
+    .socials{
+        left: 0.5rem;
+    }
+  }

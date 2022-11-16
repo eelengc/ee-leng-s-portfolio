@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,800&family=Dawning+of+a+New+Day&family=Literata:ital,opsz,wght@1,7..72,300;1,7..72,500&family=Noto+Serif+SC&family=Zeyada&display=swap');
+
+
+.layout-container{
+    text-align: center;
+}
+
+.layout-container h1{
+    font-size: 100px;
+    font-family: 'Zeyada', cursive;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.layout-container h4{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.layout-container a{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    padding: 10px 50px;
+    margin-top: 0;
+}
+
+

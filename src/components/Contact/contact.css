@@ -1,0 +1,42 @@
+#contact.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+
+.contact-container{
+    text-align: center;
+}
+
+.contact-container h1{
+    font-size: 2rem;
+}
+
+.btn{
+    /* border: 3px solid  rgb(143, 200, 143);
+    padding: 1rem 3rem;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer; */
+    border: 2px solid transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #b3d7ad, #7fa640);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 1px 1000px 0.5px #fff inset;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+}
+
+.btn:hover{
+    border: 2px solid rgb(0, 157, 0);
+}
+
+.msg-icon{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
