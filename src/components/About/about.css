@@ -111,11 +111,11 @@
         width: 85%;
     }
     .socials{
-        left: 1rem;
+        left: 0.7rem;
         font-size: 1rem;
     }
     .skills{
-        width: 150px;
+        width: 110px;
     }
     .cv{
         display: flex;
@@ -123,7 +123,7 @@
     }
     .btn-resume,
     .btn-view{
-        width: 150px;
-        padding: 0.8rem 1.5rem;
+        width: 135px;
+        padding: 0.8rem 1rem;
     }
   }
