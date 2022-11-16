@@ -15,7 +15,7 @@ const layoutStyle = {
 
 function Layout() {
   return (
-    <section style={layoutStyle}>
+    <div style={layoutStyle}>
       <div className="container">
         <div className="layout-container">
           <h4>Hello, I'm</h4>
@@ -24,7 +24,7 @@ function Layout() {
           </Link>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

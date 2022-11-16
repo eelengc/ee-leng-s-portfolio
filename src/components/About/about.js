@@ -26,34 +26,54 @@ function About() {
       <br />
       <br />
       <p className="about-me">
-        Hi! My name is <strong>Ee Leng</strong> and I like designing and creating things. I am
-        just getting started on this journey of building things that live on the
-        internet. Hopefully this path will allow me to share more of my
-        creativity digitally through coding. I am excited to take the leap and
-        refine my skills. <br />
+        Hi! My name is <strong>Ee Leng</strong> and I am a{" "}
+        <strong>full-stack software engineer.</strong> I particularly like
+        designing and creating things. I am just getting started on this journey
+        of building things that stays on the internet. Hopefully this path will
+        allow me to share more of my creativity digitally through building webs.
+        I am excited to take the leap and refine my skills. <br />
         <br />
-        Here are a few technologies that I've dabbled into recently with the
+        Here are a few skillsets that I've dabbled into recently with the
         help of a software engineer immersive course:
       </p>
-      <ul id="tech">
-        <li>» HTML</li>
-        <li>» CSS</li>
-        <li>» Javascript</li>
-        <li>» Express.js</li>
-        <li>» Node.js</li>
-        <li>» React</li>
-        <li>» MongoDB</li>
-        <li>» PostgreSQL</li>
-        <li>» Bootstrap</li>
-      </ul>
-
-      <a href={CV} target="_blank">
-        <button className="btn-view">Open CV</button>
-      </a>
-      <a href={CV} download>
-        <button className="btn-resume">Download CV</button>
-      </a>
-
+      <div className="tech">
+        <div className="skills">
+          <h3>Front-end:</h3>
+          <ul>
+            <li>» HTML</li>
+            <li>» CSS</li>
+            <li>» Javascript</li>
+            <li>» React</li>
+            <li>» Bootstrap</li>
+          </ul>
+        </div>
+        <div className="skills">
+          <h3>Back-end:</h3>
+          <ul>
+            <li>» Express.js</li>
+            <li>» Node.js</li>
+            <li>» MongoDB</li>
+            <li>» PostgreSQL</li>
+          </ul>
+        </div>
+        <div className="skills">
+          <h3>Tools:</h3>
+          <ul>
+            <li>» VS Code</li>
+            <li>» Git</li>
+            <li>» Node Package Manager</li>
+            <li>» iTerm</li>
+          </ul>
+        </div>
+      </div>
+      <div className="cv">
+        <a href={CV} target="_blank">
+          <button className="btn-view">Open CV</button>
+        </a>
+        <a href={CV} download>
+          <button className="btn-resume">Download CV</button>
+        </a>
+      </div>
       <div className="socials">
         <a href="https://github.com/eelengc" target="_blank">
           <FaGithub />
