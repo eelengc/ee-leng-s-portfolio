@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./about.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 import CV from "../../assets/CV.pdf";
 
 function About() {
@@ -83,12 +81,6 @@ function About() {
           target="_blank"
         >
           <BsLinkedin />
-        </a>
-        <a href="https://www.instagram.com/lvngc" target="_blank">
-          <FaInstagram />
-        </a>
-        <a href="https://twitter.com/lvngc" target="_blank">
-          <FaTwitter />
         </a>
       </div>
     </section>
