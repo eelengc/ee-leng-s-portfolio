@@ -7,7 +7,8 @@ import ajak1 from "../../assets/ajak1.png";
 import ajak2 from "../../assets/ajak2.png";
 import wl1 from "../../assets/wl1.png";
 import wl2 from "../../assets/wl2.png";
-import pro4 from "../../assets/pro-4.png";
+import portfolio1 from "../../assets/portfolio1.png";
+import portfolio2 from "../../assets/portfolio2.png";
 import "./projects.css";
 import { useState, useEffect } from "react";
 
@@ -102,6 +103,34 @@ function Projects() {
                   <FaGithub />
                 </a>
                 <a href="https://w-love.onrender.com/" target="_blank">
+                  <IoIosOpen />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project-container">
+          <div className="card">
+            <div className="imgBx">
+              <img src={portfolio1} alt="portfolio" className="hover-img"></img>
+              <img src={portfolio2} alt="portfolio"></img>
+            </div>
+            <div className="content">
+              <h3>My Portfolio</h3>
+              <p>
+                My first portfolio built using React, and animation with CSS.
+              </p>
+              <div className="content-tech">
+                <strong>Front-End</strong> /{" "}
+                <span className="content-skills">
+                REACT ANIMATE CSS 
+                </span>
+              </div>
+              <div className="portfolio-links">
+                <a href="https://github.com/eelengc/my-portfolio" target="_blank">
+                  <FaGithub />
+                </a>
+                <a href="https://eelengc.github.io/my-portfolio/" target="_blank">
                   <IoIosOpen />
                 </a>
               </div>
