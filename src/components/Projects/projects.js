@@ -101,7 +101,7 @@ function Projects() {
                 <a href="https://github.com/eelengc/with-love" target="_blank">
                   <FaGithub />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://w-love.onrender.com/" target="_blank">
                   <IoIosOpen />
                 </a>
               </div>
